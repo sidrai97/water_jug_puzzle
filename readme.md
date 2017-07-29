@@ -1,4 +1,4 @@
-# Water jug Puzzle 
+# Water Pouring Puzzle/Water Jug Problem
 
 Solution of Water jug Puzzle(2 Jugs) using BFS and DFS
 
