@@ -6,7 +6,7 @@ from dfs import do_dfs
 a = int(input('Enter capacity of first jug :').strip())
 b = int(input('Enter capacity of second jug : ').strip())
 c = int(input('Amount to be measured : '))
-if (c > a and c > b) or a != b or c%gcd(a,b) !=0:
+if (c > a and c > b) or c%gcd(a,b) !=0:
     print('bad input')
     exit()
 rules=['fill first jug','fill second jug','empty first jug','empty second jug','pour from jug 1 to 2','pour from jug 2 to 1']
